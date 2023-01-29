@@ -30,3 +30,5 @@ interface State {
 
 // related
 // https://mariusschulz.com/blog/tagged-union-types-in-typescript
+
+// # tegged-union
