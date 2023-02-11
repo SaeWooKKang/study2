@@ -1,3 +1,4 @@
+// object type => string or number's union
 type Person = {
   name: string;
   age: number;

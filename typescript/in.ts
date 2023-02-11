@@ -49,3 +49,6 @@ const p3: Person3 = {
     height: '',
     weight: ''
 } // ok
+
+// Reference 
+// https://stackoverflow.com/questions/57337598/in-typescript-what-do-extends-keyof-and-in-keyof-mean
