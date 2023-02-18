@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/38834625/whats-the-difference-between-extends-and-implements-in-typescript

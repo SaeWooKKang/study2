@@ -1,0 +1,26 @@
+/**
+ * 명목적 타이핑이라면..?
+ * 
+ * 객체의 타입을 명시적으로 작성해야 함.
+ */
+interface Person {
+  name: string;
+}
+let person1: Person = {name: 'park'}
+
+let person2: Person = {name: 'kim'}
+
+person1 = person2 // ok
+
+/**
+ * JS에서는 함수 표현식, 객체 리터럴 표기법으로 익명 객체를 쉽게 작성할 수 있다.  
+ * 따라서 명목적 타이핑 보다는 구조적 타이핑이 자연스럽다.(TS는 JS를 모델링한다.)
+ */
+
+/** 
+ * 구조적 타이핑: 구조만 일치하면 됨 
+ */
+
+// person1의 type은 Person이지만 
+// 객체의 '구조'가 일치하므로 할당 가능하다.
+person1 = { name: 'choi' } // ok 
